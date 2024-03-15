@@ -34,6 +34,11 @@ $(function() {
 			window.location.href = "announcements.html";
 		  })
 
+		  .catch(err => {
+			alert("Something went wrong. Please try again.");
+		  });
+
+
 		});
 		
 		
